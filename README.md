@@ -85,21 +85,6 @@ Best validation performance was achieved with a batch size of 2:
 
 ![Model Dice Coefficient](assets/dicecoefficient.png)
 
-## Getting Started
-
-### Prerequisites
-
-```bash
-pip install tensorflow numpy opencv-python matplotlib scikit-learn kagglehub
-```
-
-### Usage
-
-1. Download the dataset via `kagglehub` (handled automatically in the notebook) or manually from [Kaggle](https://www.kaggle.com/datasets/abdallahwagih/retina-blood-vessel).
-2. Open `UNet_Retinal_Segmentation.ipynb` in Jupyter/Colab.
-3. Run all cells to preprocess the data, build the U-Net, train the model, and visualize predictions.
-4. The best-performing model weights are saved to `best_model.keras`.
-
 ## Evaluation Metrics
 
 - **Dice coefficient:** measures overlap between predicted and ground-truth masks, weighted toward the size of the intersection.
