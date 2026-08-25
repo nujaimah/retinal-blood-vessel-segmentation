@@ -66,8 +66,7 @@ Output (256,256,1)
 
 Sample Output:
 
-
-
+![Vessel segmentation sample output](assets/sampleoutput.png)
 
 Best validation performance was achieved with a batch size of 2:
 
@@ -79,6 +78,12 @@ Best validation performance was achieved with a batch size of 2:
 | 1 | ~0.757 | ~0.688 | ~0.608 | ~0.525 |
 
 > Note: exact values vary slightly by run seed; see the training logs in the notebook for full per-epoch metrics.
+
+![Model Loss](assets/loss.png)
+
+![Model Accuracy](assets/accuracy.png)
+
+![Model Dice Coefficient](assets/dicecoefficient.png)
 
 ## Getting Started
 
